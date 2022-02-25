@@ -13,7 +13,7 @@ namespace Stacks_Queues
             stacksQueuesMethods.Push(70);
             stacksQueuesMethods.Push(30);
             stacksQueuesMethods.Push(56);
-            //Emptying the Stack.
+            //Emptying the Stack
             stacksQueuesMethods.EmptyingStack();
 
 
