@@ -13,8 +13,9 @@ namespace Stacks_Queues
             stacksQueuesMethods.Push(70);
             stacksQueuesMethods.Push(30);
             stacksQueuesMethods.Push(56);
-            stacksQueuesMethods.DisplayInStacks();
-            
+            //Emptying the Stack.
+            stacksQueuesMethods.EmptyingStack();
+
 
 
         }
