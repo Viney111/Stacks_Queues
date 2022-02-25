@@ -9,7 +9,7 @@ namespace Stacks_Queues
     internal class Stacks_Methods<T>
     {
         public Node<T> top;
-        //For Adding in Stack.
+        //For pushiing elements in Stack.(LIFO)
         public void Push(T data)
         {
             Node<T> newNode = new Node<T>(data);
@@ -25,6 +25,7 @@ namespace Stacks_Queues
             }
             top = newNode;
         }
+
         //For display element in stacks
         public void DisplayInStacks()
         {

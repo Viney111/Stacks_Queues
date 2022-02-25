@@ -13,6 +13,7 @@ namespace Stacks_Queues
             stacksQueuesMethods.Push(70);
             stacksQueuesMethods.Push(30);
             stacksQueuesMethods.Push(56);
+            //Verifying elements are added in stack or not !
             stacksQueuesMethods.DisplayInStacks();
             
 
