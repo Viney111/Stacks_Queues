@@ -9,14 +9,12 @@ namespace Stacks_Queues
     {
         static void Main(string[] args)
         {
-            Stacks_Methods<int> stacksQueuesMethods = new Stacks_Methods<int>();
-            stacksQueuesMethods.Push(70);
-            stacksQueuesMethods.Push(30);
-            stacksQueuesMethods.Push(56);
-            //Emptying the Stack
-            stacksQueuesMethods.EmptyingStack();
-
-
+            QueuesMethods<int> queuesMethods = new QueuesMethods<int>();
+            queuesMethods.Enqueue(56);
+            queuesMethods.Enqueue(30);
+            queuesMethods.Enqueue(70);
+            //Displaying the queue;
+            queuesMethods.DisplayQueue();
 
         }
     }
