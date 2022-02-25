@@ -9,6 +9,44 @@ namespace Stacks_Queues
     internal class Stacks_Methods<T>
     {
         public Node<T> top;
+<<<<<<< HEAD
+=======
+
+        //For emptying stack till top is not null.
+        public void EmptyingStack()
+        {
+            while(top != null)
+            {
+                Peak();
+                Pop();
+            }
+        }
+        //For popping the top element in stack;
+        public void Pop()
+        {
+            if (top == null)
+            {
+                Console.WriteLine("The stack is empty");
+            }
+            else
+            {
+                Console.WriteLine($"{top.data} has been popped out");
+                top = top.next;
+            }
+        }
+        //For displaying the element at the top of stack;
+        public void Peak()
+        {
+            if (top == null)
+            {
+                Console.WriteLine("Stack is empty.");
+            }
+            else
+            {
+                Console.WriteLine($"The stack has {top.data} at its top");
+            }
+        }
+>>>>>>> UC2_Peak_Pop
         //For pushiing elements in Stack.(LIFO)
         public void Push(T data)
         {
