@@ -9,6 +9,22 @@ namespace Stacks_Queues
     internal class QueuesMethods <T>
     {
         public Node<T> top;
+
+
+        //Dequeue the queue.
+        public void Dequeue()
+        {
+            if (top == null)
+            {
+                Console.WriteLine("Queue is empty already");
+            }
+            else
+            {
+                Console.WriteLine($"{top.data} is been removed from list.");
+                top = top.next;
+            }
+        }
+
         //For Adding elements in queue.FIFO
         public void Enqueue(T data)
         {

@@ -15,6 +15,9 @@ namespace Stacks_Queues
             queuesMethods.Enqueue(70);
             //Displaying the queue;
             queuesMethods.DisplayQueue();
+            queuesMethods.Dequeue();
+            queuesMethods.Dequeue();
+            queuesMethods.Dequeue();
 
         }
     }
